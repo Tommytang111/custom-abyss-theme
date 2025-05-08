@@ -1,0 +1,21 @@
+{
+    "name": "custom-abyss-theme",
+    "displayName": "Custom Abyss Theme",
+    "description": "A customized version of the Abyss theme with green comments, red strings, and a lighter minimap.",
+    "version": "0.0.1",
+    "publisher": "tommy-tang",
+    "engines": {
+      "vscode": "^1.60.0"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Custom Abyss",
+          "uiTheme": "vs-dark",
+          "path": "./themes/abyss-color-theme.json"
+        }
+      ]
+    }
+  }
+  
